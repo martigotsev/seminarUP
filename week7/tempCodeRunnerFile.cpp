@@ -1,0 +1,2 @@
+char arr[size];
+    
