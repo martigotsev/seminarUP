@@ -17,7 +17,7 @@ while(number!=0)
 int numbercopy=number/10;
     while(numbercopy!=0)
     {
-        if(lastnumer==numbercopy%10) return false;
+        if(lastnumer<numbercopy%10) return false;
         numbercopy/=10;
 
     }
