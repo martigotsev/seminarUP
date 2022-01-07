@@ -21,7 +21,7 @@ void printArray(double *array, int size)
     }
     cout << endl;
 }
-void deliteElementInArray(double *array, int size, int n, int &newSize)
+void deleteElementInArray(double *array, int size, int n, int &newSize)
 {
     int counter2 = 1;
     if (size < 0)
@@ -39,7 +39,7 @@ void deliteElementInArray(double *array, int size, int n, int &newSize)
         newSize--;
     }
 
-    return deliteElementInArray(array + counter2, size - 1, n, newSize);
+    return deleteElementInArray(array + counter2, size - 1, n, newSize);
 }
 int main()
 {
@@ -57,7 +57,7 @@ int main()
     cout << "n=";
     cin >> n;
     int newSize = size;
-    deliteElementInArray(array, size, n, newSize);
+    deleteElementInArray(array, size, n, newSize);
     size = newSize;
     printArray(array, size);
 }

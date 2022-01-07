@@ -53,10 +53,12 @@ void newMatrix(int newMatrix[][size], int n, int m)
 }
 int main ()
 {
-int n=3,m=4;
-int matrix[n][size];
-fillMatrix(matrix,n,m);
-printMatrix(matrix,n,m);
-newMatrix(matrix,n,m);
-printMatrix(matrix,n,m);
+
+// int matrix[n][size];
+// fillMatrix(matrix,n,m);
+// printMatrix(matrix,n,m);
+// newMatrix(matrix,n,m);
+// printMatrix(matrix,n,m);
+// 
+
 }
